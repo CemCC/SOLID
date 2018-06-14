@@ -8,16 +8,17 @@ namespace SOLID
 {
     // Aim is to add the customers 
     class Customer
-    {   // Principle: Every class should have single responsibility
+    {   
         public void Add()
         {
+            var logging = new Logger();
             try
             {
                 Console.WriteLine("Added Customer");
             }
-            catch (Exception ex) // Problem : This class is created only for adding customers.
+            catch (Exception ex) // Solution: Logging is handled by Logger Class, Therefore it satisfiys the single responsibility.
             {
-                Console.WriteLine($"Cannot add customer due to {ex}");
+                logging.Handle(ex);
             }
         }
     }
