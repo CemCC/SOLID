@@ -28,7 +28,7 @@ namespace SOLID.Liskov
                 Console.WriteLine("You can carry the luggages");
             }
             else {
-                throw new NotSupportedException("No room to carry luggage, sorry."); // it should also violating the single responsibility, I only focus One Principle at the time.
+                throw new NotSupportedException("No room to carry luggage, sorry."); // it is also violating the single responsibility, I only focus One Principle at the time.
             }
         }
 

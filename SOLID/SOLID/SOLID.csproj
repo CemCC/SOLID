@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />
+    <Compile Include="InterfaceSegragation\IAutomobile.cs" />
+    <Compile Include="InterfaceSegragation\Driver.cs" />
+    <Compile Include="InterfaceSegragation\SalesPerson.cs" />
+    <Compile Include="Liskov\CarHireService.cs" />
     <Compile Include="Liskov\ICar.cs" />
     <Compile Include="Liskov\Racecar.cs" />
     <Compile Include="Logger.cs" />
