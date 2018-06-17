@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOLID.OpenClose
 {
-    public class Mercedes: Car
+    public abstract class Car // why abstract class ? -- any child of mine MUST implement this method...
     {
-        public override double Cost()
-        {
-            return 12000;
-        }
+        public abstract double Cost();
     }
 }

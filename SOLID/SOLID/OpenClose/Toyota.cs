@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace SOLID.OpenClose
 {
-    class Toyota
+    public class Toyota: Car
     {
-        public double Cost { get; set; }
+        public override double Cost()
+        {
+            return 10000;
+        }
     }
 }

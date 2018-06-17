@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SOLID.OpenClose;
 
 namespace SOLID
 {
@@ -11,8 +12,9 @@ namespace SOLID
         static void Main(string[] args)
         {
 
-            var Customer = new Customer();
-            Customer.Add();
+            
+            var car = new Toyota();
+            Console.WriteLine(car.Cost());
 
             Console.ReadLine();
         }

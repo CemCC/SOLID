@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="Customer.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="OpenClose\Car.cs" />
+    <Compile Include="OpenClose\EstimatedCost.cs" />
+    <Compile Include="OpenClose\Hyundai.cs" />
+    <Compile Include="OpenClose\Mercedes.cs" />
+    <Compile Include="OpenClose\Toyota.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

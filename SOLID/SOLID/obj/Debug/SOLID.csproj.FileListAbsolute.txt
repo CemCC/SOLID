@@ -1,1 +1,6 @@
 C:\Users\Cem\Desktop\Dev\Solid\SOLID\SOLID\bin\Debug\SOLID.exe.config
+C:\Users\Cem\Desktop\Dev\Solid\SOLID\SOLID\obj\Debug\SOLID.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Desktop\Dev\Solid\SOLID\SOLID\bin\Debug\SOLID.exe
+C:\Users\Cem\Desktop\Dev\Solid\SOLID\SOLID\bin\Debug\SOLID.pdb
+C:\Users\Cem\Desktop\Dev\Solid\SOLID\SOLID\obj\Debug\SOLID.exe
+C:\Users\Cem\Desktop\Dev\Solid\SOLID\SOLID\obj\Debug\SOLID.pdb
