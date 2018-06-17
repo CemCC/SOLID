@@ -46,6 +46,8 @@
     <Compile Include="Customer.cs" />
     <Compile Include="InterfaceSegragation\IAutomobile.cs" />
     <Compile Include="InterfaceSegragation\Driver.cs" />
+    <Compile Include="InterfaceSegragation\IDriver.cs" />
+    <Compile Include="InterfaceSegragation\ISalesPerson.cs" />
     <Compile Include="InterfaceSegragation\SalesPerson.cs" />
     <Compile Include="Liskov\CarHireService.cs" />
     <Compile Include="Liskov\ICar.cs" />
